@@ -4,6 +4,12 @@
 
 ## User settings
 xcuserdata/
+/.env.local
+
+## Tuist-generated project files
+/BeatSense.xcodeproj/
+/BeatSense.xcworkspace/
+/Derived/
 
 ## Obj-C/Swift specific
 *.hmap

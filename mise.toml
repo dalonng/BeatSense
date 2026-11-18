@@ -1,0 +1,8 @@
+[tools]
+"aqua:casey/just" = "1.59.0"
+"aqua:tuist/tuist" = "4.218.1"
+"aqua:realm/SwiftLint" = "0.65.1"
+"github:nicklockwood/SwiftFormat" = "0.64.7"
+
+[env]
+_.file = ".env.local"

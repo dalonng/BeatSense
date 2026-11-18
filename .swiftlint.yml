@@ -1,0 +1,17 @@
+included:
+  - BeatSense
+  - Project.swift
+  - Tuist.swift
+  - Tuist
+
+file_length:
+  warning: 500
+
+line_length:
+  warning: 160
+  error: 200
+
+trailing_comma:
+  mandatory_comma: true
+
+strict: true
