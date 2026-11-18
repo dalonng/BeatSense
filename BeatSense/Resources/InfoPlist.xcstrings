@@ -1,0 +1,60 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "CFBundleName" : {
+      "comment" : "Bundle name",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "BeatSense"
+          }
+        }
+      }
+    },
+    "NSHealthShareUsageDescription" : {
+      "comment" : "Explains why BeatSense requests read access to measurements and sleep data in Apple Health.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BeatSense liest deine Herzfrequenz, deine Ruheherzfrequenz, deinen Blutsauerstoff, deine Atemfrequenz und deine Herzfrequenzvariabilität aus Apple Health, um aktuelle Messwerte und persönliche Referenzwerte anzuzeigen. BeatSense speichert deinen Messverlauf auf diesem Gerät und liest Schlafdaten, um unter „Heute“ deine Schlafdauer, deinen Schlafzeitraum und die aufgezeichneten Schlafphasen anzuzeigen."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BeatSense reads your heart rate, resting heart rate, blood oxygen, respiratory rate, and heart rate variability from Apple Health to show recent measurements and personal baselines. This history is saved on your device. BeatSense also reads sleep data to show your sleep duration, sleep period, and recorded stages in Today."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BeatSense lee tu frecuencia cardíaca, frecuencia cardíaca en reposo, oxígeno en sangre, frecuencia respiratoria y variabilidad de la frecuencia cardíaca de la app Salud de Apple para mostrar tus mediciones recientes y tus valores de referencia personales. BeatSense guarda el historial de mediciones en este dispositivo y lee tus datos de sueño para mostrar en Hoy la duración, el horario y las fases registradas de tu sueño."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BeatSense lit votre fréquence cardiaque, votre fréquence cardiaque au repos, votre oxygène sanguin, votre fréquence respiratoire et votre variabilité de fréquence cardiaque dans l’app Santé d’Apple pour afficher vos mesures récentes et vos valeurs de référence personnelles. BeatSense enregistre votre historique de mesures sur cet appareil et lit vos données de sommeil pour afficher votre durée de sommeil, vos horaires et les phases de sommeil enregistrées dans Aujourd’hui."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BeatSenseは、Appleのヘルスケアから心拍数、安静時心拍数、血中酸素濃度、呼吸数、心拍変動を読み取り、最近の測定値と個人の基準値を表示します。測定履歴はこのデバイスに保存されます。また、睡眠データを読み取り、「今日」に睡眠時間、開始・終了時刻、記録された睡眠ステージを表示します。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BeatSense 从 Apple 健康读取你的心率、静息心率、血氧、呼吸频率和心率变异性，用于显示近期测量结果和个人基线。测量历史会保存在此设备上。BeatSense 还会读取睡眠数据，在「今天」显示实际睡眠时长、起止时间和已记录的睡眠阶段。"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

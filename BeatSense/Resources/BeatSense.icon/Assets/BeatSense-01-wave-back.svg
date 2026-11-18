@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <title>BeatSense 01 - Blue recovery wave</title>
+  <path id="wave-back" fill="#086D9F" d="M 0,726 C 109,712 220,782 327,844 C 422,899 506,920 610,886 C 762,837 883,743 1024,752 L 1024,1024 L 0,1024 L 0,726 Z"/>
+</svg>

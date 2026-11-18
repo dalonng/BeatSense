@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <title>BeatSense 02 - Mint recovery wave</title>
+  <path id="wave-mint" fill="#29D39F" d="M 0,974 C 180,1007 355,971 519,908 C 696,840 827,694 1024,731 L 1024,1024 L 0,1024 L 0,974 Z"/>
+</svg>

@@ -2,6 +2,8 @@ import ProjectDescription
 
 enum AppBuildSettings {
   static let settings: Settings = .settings(base: [
+    "ASSETCATALOG_COMPILER_APPICON_NAME": "BeatSense",
+    "ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME": "",
     "CURRENT_PROJECT_VERSION": .string(AppSettings.buildNumber),
     "GENERATE_INFOPLIST_FILE": true,
     "INFOPLIST_KEY_UIApplicationSceneManifest_Generation": true,

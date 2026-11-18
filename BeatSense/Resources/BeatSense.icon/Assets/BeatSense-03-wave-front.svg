@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <title>BeatSense 03 - Deep teal foreground wave</title>
+  <path id="wave-front" fill="#075368" d="M 0,891 C 146,824 263,879 395,901 C 554,932 648,852 754,852 C 858,851 943,887 1024,938 L 1024,1024 L 0,1024 L 0,891 Z"/>
+</svg>

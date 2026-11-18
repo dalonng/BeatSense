@@ -1,8 +1,17 @@
 included:
   - BeatSense
+  - AAA
   - Project.swift
   - Tuist.swift
   - Tuist
+
+excluded:
+  - "AAA/*/.build"
+  - "AAA/*/.swiftpm"
+
+opening_brace:
+  ignore_multiline_statement_conditions: true
+  ignore_multiline_function_signatures: true
 
 file_length:
   warning: 500

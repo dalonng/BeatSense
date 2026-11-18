@@ -5,16 +5,9 @@ let project = Project(
   name: AppSettings.projectName,
   options: .options(
     automaticSchemesOptions: .disabled,
-    defaultKnownRegions: [
-      "Base",
-      "de",
-      "en",
-      "es",
-      "fr",
-      "ja",
-      "zh-Hans",
-    ]
+    defaultKnownRegions: ["Base"] + AppSettings.localizations
   ),
+  packages: AppPackages.projectPackages,
   settings: .settings(base: [
     "ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS": true,
     "DEVELOPMENT_TEAM": .string(AppSettings.teamId),
@@ -33,5 +26,7 @@ let project = Project(
     "justfile",
     "mise.toml",
     "README.md",
+    "AGENTS.md",
+    "AAA/*/AGENTS.md",
   ]
 )

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <title>BeatSense 05 - Green upper right sensing arc</title>
+  <path id="ring-upper-right" fill="#65E997" d="M 540.9141,103.0215 A 19,19 0 0,0 521.0215,121.0859 A 19,19 0 0,0 539.0859,140.9785 C 696.4458,148.5621 840.5468,261.3694 851.0293,450.0547 A 19,19 0 0,0 871.0547,467.9707 A 19,19 0 0,0 888.9707,447.9453 C 877.4532,240.6306 715.5542,111.4379 540.9141,103.0215 Z"/>
+</svg>

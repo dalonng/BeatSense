@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <title>BeatSense 08 - BeatSense heart</title>
+  <path id="heart" fill="#16D4C6" d="M 512,315 C 467,267 427,251 383,251 C 298,251 232,319 232,411 C 232,509 319,603 405,676 C 450,714 497,747 512,747 C 527,747 574,714 619,676 C 705,603 792,509 792,411 C 792,319 726,251 641,251 C 597,251 557,267 512,315 Z"/>
+</svg>

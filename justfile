@@ -11,6 +11,10 @@ generate:
 open: generate
     open "{{app_name}}.xcworkspace"
 
+# Generate and open the workspace in Xcode Beta.
+open-beta: generate
+    open -a "/Applications/Xcode-beta.app" "{{app_name}}.xcworkspace"
+
 # Format and build for iOS Simulator without signing.
 build: format generate
     xcodebuild -workspace "{{app_name}}.xcworkspace" \
@@ -23,12 +27,13 @@ verify: generate
     test -f "{{app_name}}.xcodeproj/project.xcproj"
     xcodebuild -list -project "{{app_name}}.xcodeproj"
 
-# Lint the Swift sources and Tuist configuration.
+# Lint app, local packages, and Tuist configuration.
 lint:
     swiftlint lint --config .swiftlint.yml --cache-path Derived/SwiftLint
 
-# Format the Swift sources and Tuist configuration in place.
+# Format app, local packages, and Tuist configuration in place.
 format:
     mkdir -p Derived
-    swiftformat "{{app_name}}" Project.swift Tuist.swift Tuist \
+    swiftformat "{{app_name}}" AAA Project.swift Tuist.swift Tuist \
+        --exclude '**/.build,**/.swiftpm' \
         --config .swiftformat --cache Derived/SwiftFormat.cache
